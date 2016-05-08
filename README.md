@@ -2,7 +2,7 @@
 
 Incredibly basic `bash` completion for Perl's carton.
 
-I have not used `bash` tab completions before, but I fell over [this blog post](http://davidalger.com/development/bash-completion-on-os-x-with-brew/). So this is my first shot* at creating a `bash` completion for a command I use a lot.
+I have not used `bash` tab completions before, but I fell over [this blog post](http://davidalger.com/development/bash-completion-on-os-x-with-brew/). So this is my first *shot* at creating a `bash` completion for a command I use a lot.
 
 The implementation is based on https://github.com/a1dutch/sonarqube-bash-completion.
 
