@@ -6,12 +6,12 @@ I have not used `bash` tab completions before, but I fell over [this blog post](
 
 The implementation is based on https://github.com/a1dutch/sonarqube-bash-completion.
 
-A more elaborate piece of documentation on `bash` is also available from the **The Linux Documentation Project** in the [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/tabexpansion.html).
+A more elaborate piece of documentation on `bash` is also available from **The Linux Documentation Project** in the [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/tabexpansion.html).
 
 ## Installation
 
 ```bash
-$ curl https://raw.githubusercontent.com/jonasbn/completion-carton/master/ >carton
+$ curl https://raw.githubusercontent.com/jonasbn/completion-carton/master/ > carton
 ```
 
 Where your completions are located might vary:
