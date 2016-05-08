@@ -1,12 +1,21 @@
-# completion-carton
+# carton Bash Completion
 
-Incredibly basic `bash` completion for Perl's carton.
+Incredibly basic `bash` completion for Perl's [carton](https://github.com/perl-carton/carton).
 
 I have not used `bash` tab completions before, but I fell over [this blog post](http://davidalger.com/development/bash-completion-on-os-x-with-brew/). So this is my first *shot* at creating a `bash` completion for a command I use a lot.
 
-The implementation is based on https://github.com/a1dutch/sonarqube-bash-completion.
-
 A more elaborate piece of documentation on `bash` is also available from **The Linux Documentation Project** in the [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/tabexpansion.html).
+
+This implementation is based on [SonarQube Bash Completion](https://github.com/a1dutch/sonarqube-bash-completion).
+
+## Usage
+
+```bash
+$ carton <tab>
+exec     help     install
+```
+
+See [carton](https://github.com/perl-carton/carton) for more information on the different commands available to carton.
 
 ## Installation
 
@@ -32,6 +41,6 @@ $ cp carton /usr/local/etc/bash_completion.d
 
 This is made available under the MIT license, see separate license file.
 
-## 
+## Copyright 
 
 :copyright: jonasbn 2016
