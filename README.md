@@ -12,7 +12,7 @@ This implementation is based on [SonarQube Bash Completion](https://github.com/a
 
 ```bash
 $ carton <tab>
-exec     help     install
+bundle exec     help     install
 ```
 
 See [carton](https://github.com/perl-carton/carton) for more information on the different commands available to carton.
