@@ -2,10 +2,6 @@
 
 Incredibly basic `bash` completion for Perl's [carton](https://github.com/perl-carton/carton).
 
-I have not used `bash` tab completions before, but I fell over [this blog post](http://davidalger.com/development/bash-completion-on-os-x-with-brew/). So this is my first *shot* at creating a `bash` completion for a command I use a lot.
-
-A more elaborate piece of documentation on `bash` is also available from **The Linux Documentation Project** in the [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/tabexpansion.html). Another insightful read is the [project description](http://freecode.com/projects/bashcompletion).
-
 ## Usage
 
 ```
@@ -41,6 +37,16 @@ This is not a part of [the completions](https://github.com/Homebrew/homebrew-com
 ```bash
 $ cp carton /usr/local/etc/bash_completion.d
 ```
+
+## Motivation
+
+I have not used `bash` tab completions before, but I fell over [this blog post](http://davidalger.com/development/bash-completion-on-os-x-with-brew/). So this is my first *shot* at creating a `bash` completion for a command I use a lot.
+
+## See Also
+
+A more elaborate piece of documentation on `bash` completions is available from **The Linux Documentation Project** in the [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/tabexpansion.html).
+
+Good two-part article, "An Introduction to Bash Completion": [Part 1](http://www.debian-administration.org/article/An_introduction_to_bash_completion_part_1) and [Part 2](http://www.debian-administration.org/article/An_introduction_to_bash_completion_part_2).
 
 ## License
 
