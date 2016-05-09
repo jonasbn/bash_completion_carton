@@ -10,7 +10,7 @@ This implementation is based on [SonarQube Bash Completion](https://github.com/a
 
 ## Usage
 
-```bash
+```
 $ carton <tab>
 bundle exec     help     install
 ```
