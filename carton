@@ -1,12 +1,38 @@
+#
+#  Completion for carton:
+#
+#  carton bundle
+#  carton exec
+#  carton help
+#  cartin install
+#
 _carton() {
+    local cur prev opts
+    COMPREPLY=()
     cur="${COMP_WORDS[COMP_CWORD]}"
-	commands="bundle exec help install"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+
+    #
+    #  The basic options we can complete
+    #
+	opts="bundle exec help install"
 	
-    if [ $COMP_CWORD == 1 ]
-    then
-      COMPREPLY=($(compgen -W "${commands}" -- ${cur}))
-      return 0
+    #if [ $COMP_CWORD == 1 ]
+    #then
+    #  COMPREPLY=($(compgen -W "${commands}" -- ${cur}))
+    #  return 0
+    #fi
+
+    #
+    #  Complete the arguments to some of the basic commands.
+    # 
+    if [[ "${prev}" == "install" ]] ; then
+	    local installopts="--deployment --cached"
+	    COMPREPLY=( $(compgen -W "${installopts}" -- ${cur}) )
+        return 0
     fi
+
+    COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
 }
 
 complete -F _carton carton
