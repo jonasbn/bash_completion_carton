@@ -1,4 +1,4 @@
-# carton Bash Completion
+# Carton Bash Completion
 
 Incredibly basic `bash` completion for Perl's [carton](https://github.com/perl-carton/carton).
 
@@ -16,6 +16,11 @@ bundle exec     help     install
 ```
 
 See [carton](https://github.com/perl-carton/carton) for more information on the different commands available to carton.
+
+```
+$ carton install <tab>
+--cached      --deployment
+```
 
 ## Installation
 
