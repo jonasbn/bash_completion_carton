@@ -21,7 +21,7 @@ $ carton install <tab>
 ## Installation
 
 ```bash
-$ curl https://raw.githubusercontent.com/jonasbn/completion-carton/master/ > carton
+$ curl https://raw.githubusercontent.com/jonasbn/completion-carton/master/carton > carton
 ```
 
 Where your completions are located might vary:
@@ -29,13 +29,19 @@ Where your completions are located might vary:
 Based on [an introduction](https://debian-administration.org/article/316/An_introduction_to_bash_completion_part_1) to `bash` completions on Debian.
 
 ```bash
-$ sudo cp carton /etc/bash_completion.d
+$ sudo cp carton /etc/bash_completion.d/
 ```
 
 This is not a part of [the completions](https://github.com/Homebrew/homebrew-completions) available under `brew` on OSX. But you can copy the `carton` file to the same directory:
 
 ```bash
-$ cp carton /usr/local/etc/bash_completion.d
+$ cp carton /usr/local/etc/bash_completion.d/
+```
+
+And to activate right away:
+
+```bash
+$ . /usr/local/etc/bash_completion.d/carton
 ```
 
 ## Motivation
