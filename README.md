@@ -6,8 +6,6 @@ I have not used `bash` tab completions before, but I fell over [this blog post](
 
 A more elaborate piece of documentation on `bash` is also available from **The Linux Documentation Project** in the [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/tabexpansion.html). Another insightful read is the [project description](http://freecode.com/projects/bashcompletion).
 
-This implementation is based on [SonarQube Bash Completion](https://github.com/a1dutch/sonarqube-bash-completion).
-
 ## Usage
 
 ```
