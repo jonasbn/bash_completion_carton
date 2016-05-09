@@ -13,7 +13,9 @@ $ carton <tab>
 bundle exec     help     install
 ```
 
-See [carton](https://github.com/perl-carton/carton) for more information on the different commands available to carton.
+See [carton](https://github.com/perl-carton/carton) for more information on the different commands available to carton, can also be retrieved via `carton help`.
+
+`install` offers addional completions.
 
 ```
 $ carton install <tab>
