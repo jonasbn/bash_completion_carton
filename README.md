@@ -46,7 +46,7 @@ I have not used `bash` tab completions before, but I fell over [this blog post](
 
 A more elaborate piece of documentation on `bash` completions is available from **The Linux Documentation Project** in the [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/tabexpansion.html).
 
-Good two-part article, "An Introduction to Bash Completion": [Part 1](http://www.debian-administration.org/article/An_introduction_to_bash_completion_part_1) and [Part 2](http://www.debian-administration.org/article/An_introduction_to_bash_completion_part_2).
+Good two-part article, "An Introduction to Bash Completion": [Part 1](https://debian-administration.org/article/316/An_introduction_to_bash_completion_part_1) and [Part 2](https://debian-administration.org/article/317/An_introduction_to_bash_completion_part_2).
 
 ## License
 
