@@ -4,7 +4,7 @@ Incredibly basic `bash` completion for Perl's [carton](https://github.com/perl-c
 
 I have not used `bash` tab completions before, but I fell over [this blog post](http://davidalger.com/development/bash-completion-on-os-x-with-brew/). So this is my first *shot* at creating a `bash` completion for a command I use a lot.
 
-A more elaborate piece of documentation on `bash` is also available from **The Linux Documentation Project** in the [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/tabexpansion.html). Another insightful read is the [project desciption](http://freecode.com/projects/bashcompletion).
+A more elaborate piece of documentation on `bash` is also available from **The Linux Documentation Project** in the [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/tabexpansion.html). Another insightful read is the [project description](http://freecode.com/projects/bashcompletion).
 
 This implementation is based on [SonarQube Bash Completion](https://github.com/a1dutch/sonarqube-bash-completion).
 
