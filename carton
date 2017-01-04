@@ -4,7 +4,7 @@
 #  carton bundle
 #  carton exec
 #  carton help
-#  cartin install
+#  carton install
 #
 _carton() {
     local cur prev opts
