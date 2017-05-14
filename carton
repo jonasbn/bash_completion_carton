@@ -16,12 +16,6 @@ _carton() {
     #  The basic options we can complete
     #
 	opts="bundle exec help install"
-	
-    #if [ $COMP_CWORD == 1 ]
-    #then
-    #  COMPREPLY=($(compgen -W "${commands}" -- ${cur}))
-    #  return 0
-    #fi
 
     #
     #  Complete the arguments to some of the basic commands.
