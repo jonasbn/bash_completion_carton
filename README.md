@@ -9,7 +9,7 @@ $ carton <tab>
 bundle exec     help     install
 ```
 
-See [carton](https://github.com/perl-carton/carton) for more information on the different commands available to carton, can also be retrieved via `carton help`.
+See [carton](https://github.com/perl-carton/carton) for more information on the different commands available to `carton`, can also be retrieved via `carton help`.
 
 `install` offers additional completions.
 
@@ -21,7 +21,7 @@ $ carton install <tab>
 ## Installation
 
 ```bash
-$ curl https://raw.githubusercontent.com/jonasbn/completion-carton/master/carton > carton
+$ curl https://raw.githubusercontent.com/jonasbn/bash_completion_carton/master/carton > carton
 ```
 
 Where your completions are located might vary:
