@@ -2,6 +2,8 @@
 
 Incredibly basic `bash` completion for Perl's [carton](https://github.com/perl-carton/carton).
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Usage
 
 ```
