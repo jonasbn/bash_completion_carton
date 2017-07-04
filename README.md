@@ -98,7 +98,7 @@ $ source /usr/local/share/bash-completion/completions/carton
 
 ## Motivation
 
-I have not used `bash` tab completions before, but I fell over [this blog post](http://davidalger.com/development/bash-completion-on-os-x-with-brew/). So this is my first *shot* at creating a `bash` completion for a command I use a lot.
+`carton` is an important tool in my toolchain, so I wanted to have easy access to all the options available.
 
 ## See Also
 
