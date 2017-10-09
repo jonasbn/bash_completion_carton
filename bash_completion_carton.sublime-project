@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+    "syntax_override": {
+        "carton$": [ "ShellScript", "Shell-Unix-Generic" ]
+    }
+}
