@@ -18,14 +18,18 @@ _carton() {
     #
     #  The basic options we can complete
     #
-	opts="bundle exec help install"
+    opts="bundle exec help install"
 
     #
     #  Complete the arguments to some of the basic commands.
     #
     if [[ "${prev}" == "install" ]] ; then
-	    local installopts="--deployment --cached"
-	    COMPREPLY=( $(compgen -W "${installopts}" -- ${cur}) )
+        local installopts="--deployment --cached"
+        COMPREPLY=( $(compgen -W "${installopts}" -- ${cur}) )
+        return 0
+    elif [[ "${prev}" == "exec" ]] ; then
+        COMPREPLY=($(for i in $(compgen -f -d -- ${cur}); do if test -d "$i"; then echo "$i/"; elif test -x "$i"; then echo "$i "; fi; done));
+        test -d "${COMPREPLY[0]}" && compopt -o nospace
         return 0
     fi
 
